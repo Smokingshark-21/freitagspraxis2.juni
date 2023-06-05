@@ -141,7 +141,7 @@ fun main() {
     var Alist: List<Int> = datenA.values.toList()
     var alist: List<String> = datenA.keys.toList()
 
-    var min: Int = Alist.min()
+    var min: Int = Alist.indexOf(Alist.min())
     var IK = alist[min]
 
     spielerA.remove(IK)
