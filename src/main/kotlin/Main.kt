@@ -160,7 +160,7 @@ fun main() {
     var Blist: List<Int> = datenA.values.toList()
     var blist: List<String> = datenA.keys.toList()
 
-    var minb: Int = Alist.min()
+    var minb: Int = Blist.indexOf(Blist.min())
     var IKb = alist[min]
 
     spielerB.remove(IK)
@@ -270,7 +270,7 @@ fun main() {
     var Alist1: List<Int> = datenA1.values.toList()
     var alist1: List<String> = datenA1.keys.toList()
 
-    var min1: Int = Alist1.min()
+    var min1: Int = Alist1.indexOf(Alist1.min())
     var IK1 = alist1[min1]
 
     spielerA1.remove(IK1)
@@ -289,7 +289,7 @@ fun main() {
     var Alist2: List<Int> = datenB1.values.toList()
     var alist2: List<String> = datenB1.keys.toList()
 
-    var min2: Int = Alist2.min()
+    var min2: Int = Alist2.indexOf(Alist2.min())
     var IK2 = alist2[min2]
 
     spielerB2.remove(IK2)
