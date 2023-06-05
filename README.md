@@ -112,15 +112,4 @@ Spiel-Ablauf simulieren.
 
 </details>
 
----
 
-<details>
-<summary> <b> Bonus - Die Spieler/innen selbst entscheiden lassen </b> </summary>
-
-Evtl. verändern sich irgendwann die Spielregeln unseres Spiels und es ist nicht mehr passend immer die Karte mit dem
-kleinsten Wert von der Hand abzuwerfen. Verändere das Programm so, dass die Spieler/innen zukünftig gefragt werden
-welche Karte von der Hand abgeworfen und ersetzt werden soll!
-
-</details>
-
----
